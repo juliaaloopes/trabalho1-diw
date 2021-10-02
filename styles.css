@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+
+body {
+    font-family: 'Syne', sans-serif !important;
+    width: 100%;
+    font-size: 14px;
+    text-decoration: none !important;
+    background-color: #FFFCF2 !important;
+}
+
+.nav-link {
+    color: #FFFCF2 !important;
+}
+
+
+
+#profile {
+    height: 70%;
+}
+
+/* ADD BUTTON */
+
+#add-button {
+    max-width: 18rem;
+    background-color: #252422;
+    border-radius: 5px;
+}
+
+/* ADD BUTTON FIM */
+
+/* PROJETO */
+
+#projects {
+    background-color: #EB5E28;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card-header {
+    background: none !important;
+}
+
+.project-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.card-title {
+    color: #343a40;
+    text-align: center;
+}
+
+/* PROJETO FIM */
+
+/* REPOSITORIO GITHUB */
+
+#repository {
+    margin-top: 30px;
+}
+
+#repository-cards {
+    margin-top: 15px;
+    padding: 2px 5px 10px;
+    border-radius: .5rem;
+    background-color: #343a40;
+
+}
+
+#card {
+    margin: 5px 5px 20px;
+    background-color: #fff;
+    border: 1px solid #CCC5B9;
+    border-radius: 3px;
+    transition: transform 250ms;
+}
+
+#card:hover {
+    transform: translateY(-8px);
+}
+
+#card>h2 {
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+    color: #343a40;
+    width: 100%;
+    height: auto;
+}
+
+#card>button {
+    background-color: #343a40;
+    border: none;
+}
+
+#card>button>a {
+    text-decoration: none;
+    margin: 7px;
+    font-size: 20px;
+    color: white;
+}
+
+/* REPOSITORIO GITHUB FIM */
+
+/* EXPERIENCIAS */
+
+.exp {
+    width: 100%;
+    height: auto;
+    border: 1.5px solid #0000004f;
+    border-left: 7px solid #EB5E28;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+#company-logo {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+/* EXPERIENCIAS FIM*/
+
+/* IFRAME */
+
+#iframe {
+    background-color: #403D39;
+    color: #FFFCF2;
+}
+
+.frame {
+    margin-bottom: 20px;
+}
+
+.frame>p {
+    display: inline;
+}
+
+/* IFRAME FIM */
+
+/* FOOTER */
+
+.social-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6em;
+    background-color: #FFFCF2;
+}
+
+.copy-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    background-color: #343a40;
+    color: #FFFCF2;
+}
+
+/* FOOTER FIM */
