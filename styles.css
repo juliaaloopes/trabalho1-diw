@@ -22,7 +22,7 @@ body {
 
 #add-button {
     max-width: 18rem;
-    background-color: #252422;
+    background-color: #fff;
     border-radius: 5px;
 }
 
@@ -34,23 +34,14 @@ body {
     background-color: #EB5E28;
 }
 
-.card:hover {
-    transform: translateY(-8px);
+#user h2 {
+    margin-top: 30px;
 }
 
-.card-header {
-    background: none !important;
-}
+#user a {
 
-.project-img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5px;
-}
-
-.card-title {
-    color: #343a40;
-    text-align: center;
+    text-decoration: none;
+    color: #fff;
 }
 
 /* PROJETO FIM */
@@ -69,7 +60,7 @@ body {
 
 }
 
-#card {
+.card {
     margin: 5px 5px 20px;
     background-color: #fff;
     border: 1px solid #CCC5B9;
@@ -77,11 +68,11 @@ body {
     transition: transform 250ms;
 }
 
-#card:hover {
+.card:hover {
     transform: translateY(-8px);
 }
 
-#card>h2 {
+.card>h2 {
     display: flex;
     justify-content: center;
     margin: 7px;
@@ -90,12 +81,12 @@ body {
     height: auto;
 }
 
-#card>button {
+.card>button {
     background-color: #343a40;
     border: none;
 }
 
-#card>button>a {
+.card>button>a {
     text-decoration: none;
     margin: 7px;
     font-size: 20px;
